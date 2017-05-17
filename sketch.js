@@ -4,6 +4,9 @@ var img;  // Declare variable 'img'.
 function setup() {
   createCanvas(720, 400);
   img = loadImage("musicbot.jpg");  // Load the image
+  song = loadSound('[2009] WattsonHi - Serenade.mp3');
+  createCanvas(720, 200);
+  background(255,0,0);
 }
 
 function draw() {
@@ -11,13 +14,6 @@ function draw() {
   image(img, 0, 0);
   // Displays the image at point (0, height/2) at half size
   image(img, 0, height/2, img.width/2, img.height/2);
-}
-
-
-function setup() {
-  song = loadSound('[2009] WattsonHi - Serenade.mp3');
-  createCanvas(720, 200);
-  background(255,0,0);
 }
 
 function mousePressed() {
