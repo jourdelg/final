@@ -1,7 +1,7 @@
 var song;
 
 function setup() {
-  song = loadSound('assets/[2009] WattsonHi - Serenade.mp3);
+  song = loadSound('assets/[2009] WattsonHi - Serenade.mp3');
   createCanvas(720, 200);
   background(255,0,0);
 }
