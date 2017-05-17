@@ -1,4 +1,4 @@
-r song;
+var song;
 
 function setup() {
   song = loadSound('final/[2009] WattsonHi - Serenade.mp3);
