@@ -1,10 +1,12 @@
 var song;
 var img;  // Declare variable 'img'.
+function preload() {
+  img = loadImage("musicbot.jpg");  // Load the image
+  song = loadSound('[2009] WattsonHi - Serenade.mp3');
+}
 
 function setup() {
   createCanvas(720, 400);
-  img = loadImage("musicbot.jpg");  // Load the image
-  song = loadSound('[2009] WattsonHi - Serenade.mp3');
   createCanvas(720, 200);
   background(255,0,0);
 }
